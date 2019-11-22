@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <OutputPath>$(RepoRoot)publish\test\bin\$(Configuration)\$(Platform)\$(AssemblyName)</OutputPath>
+  </PropertyGroup>
+
+</Project>

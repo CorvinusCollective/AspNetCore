@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDB81CBA-1C68-4058-A93D-E62C154819B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6127D2E4-01B2-4B18-B8C4-625743CCBCBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{522DCC67-91B4-4EDE-B066-09979292AE22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{59DD181E-ED81-47ED-B069-345FA3101568}"
+	ProjectSection(SolutionItems) = preProject
+		common\CodeAnalysis.Src.ruleset = common\CodeAnalysis.Src.ruleset
+		common\CodeAnalysis.Test.ruleset = common\CodeAnalysis.Test.ruleset
+		common\CopyLibrary.ps1 = common\CopyLibrary.ps1
+		common\Corvinus-Logo.png = common\Corvinus-Logo.png
+		common\stylecop.json = common\stylecop.json
+		common\xmldoc2md.ps1 = common\xmldoc2md.ps1
+		common\xmldoc2md.xsl = common\xmldoc2md.xsl
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore.Sample", "src\Corvinus.AspNetCore\samples\Corvinus.AspNetCore.Sample\Corvinus.AspNetCore.Sample.csproj", "{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore", "src\Corvinus.AspNetCore\src\Corvinus.AspNetCore.csproj", "{146DB616-AD32-4811-807A-AE1C61517BC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore.Middleware.Exceptions", "src\Corvinus.AspNetCore.Middleware.Exceptions\src\Corvinus.AspNetCore.Middleware.Exceptions.csproj", "{C843300F-C246-45CB-A3E6-8BA044E60D42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore.Test.Unit", "src\Corvinus.AspNetCore\tests\Corvinus.AspNetCore.Test.Unit\Corvinus.AspNetCore.Test.Unit.csproj", "{D3D24218-DCAA-4344-B1D1-1E07CE7C001D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit", "src\Corvinus.AspNetCore.Middleware.Exceptions\tests\Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit\Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit.csproj", "{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146DB616-AD32-4811-807A-AE1C61517BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146DB616-AD32-4811-807A-AE1C61517BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146DB616-AD32-4811-807A-AE1C61517BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146DB616-AD32-4811-807A-AE1C61517BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C843300F-C246-45CB-A3E6-8BA044E60D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C843300F-C246-45CB-A3E6-8BA044E60D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C843300F-C246-45CB-A3E6-8BA044E60D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C843300F-C246-45CB-A3E6-8BA044E60D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D24218-DCAA-4344-B1D1-1E07CE7C001D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D24218-DCAA-4344-B1D1-1E07CE7C001D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D24218-DCAA-4344-B1D1-1E07CE7C001D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D24218-DCAA-4344-B1D1-1E07CE7C001D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A88A5F5-C5E1-493B-B2F3-BC1DFC024DC6} = {522DCC67-91B4-4EDE-B066-09979292AE22}
+		{146DB616-AD32-4811-807A-AE1C61517BC2} = {CDB81CBA-1C68-4058-A93D-E62C154819B8}
+		{C843300F-C246-45CB-A3E6-8BA044E60D42} = {CDB81CBA-1C68-4058-A93D-E62C154819B8}
+		{D3D24218-DCAA-4344-B1D1-1E07CE7C001D} = {6127D2E4-01B2-4B18-B8C4-625743CCBCBE}
+		{945DED37-A0DD-4BE4-9CF5-3DBA591DE5CF} = {6127D2E4-01B2-4B18-B8C4-625743CCBCBE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84ABE11E-F67F-4A2B-9889-9AA948D3425B}
+	EndGlobalSection
+EndGlobal

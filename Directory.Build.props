@@ -1,0 +1,35 @@
+﻿<Project TreatAsLocalProperty="ExcludeRestorePackageImports">
+
+  <!-- Base repo layout properties -->
+  <PropertyGroup>
+    <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
+    <RepoBuildVersion>1.0.0.0</RepoBuildVersion>
+    <RepositoryUrl>https://github.com/Biomancer81/Corvinus/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageOutputPath>$(RepoRoot)packages</PackageOutputPath>
+    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
+    <Company>Corvinus Collective</Company>
+    <Authors>Corvinus Collective</Authors>
+    <Copyright>Copyright © $(Company) 2019. All rights reserved.</Copyright>
+    <LangVersion>latest</LangVersion>
+    <NoWarn>NU5105</NoWarn>
+    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
+    <PackageProjectUrl>https://github.com/Biomancer81/Corvinus</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(MSBuildProjectExtension)' != '.shproj' ">
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup Label="Common">
+    <AdditionalFiles Include="$(RepoRoot)common\stylecop.json" Link="stylecop.json" Visible="false" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(RepoRoot)common\CodeAnalysis.Src.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+</Project>

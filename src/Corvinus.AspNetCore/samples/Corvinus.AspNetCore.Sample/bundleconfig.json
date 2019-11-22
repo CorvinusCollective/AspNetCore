@@ -1,0 +1,49 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/corvinus-controls/dist/corvinus.controls.js",
+    "inputFiles": [
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.appbar.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.console.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.dialog.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.dropdown.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.flipview.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.grid.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.gridview.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.list.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.loading.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.navmenu.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.progressBar.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.toolbar.js",
+      "wwwroot/lib/corvinus-controls/obj/js/corvinus.tooltip.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/corvinus-plugins/dist/corvinus.plugins.js",
+    "inputFiles": [
+      "wwwroot/lib/corvinus-plugins/obj/corvinus.addsvg.js",
+      "wwwroot/lib/corvinus-plugins/obj/corvinus.keyboard.js",
+      "wwwroot/lib/corvinus-plugins/obj/corvinus.manipulation.js",
+      "wwwroot/lib/corvinus-plugins/obj/corvinus.guid.js",
+      "wwwroot/lib/corvinus-plugins/obj/corvinus.mouse.js",
+      "wwwroot/lib/jquery-easing/dist/jquery.easing.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/corvinus-controls/dist/corvinus.controls.css",
+    "inputFiles": [
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.appbar.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.buttonMenu.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.console.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.dialog.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.dropdown.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.generic.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.grid.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.list.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.loading.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.navmenu.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.progressBar.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.toolbar.css",
+      "wwwroot/lib/corvinus-controls/obj/css/corvinus.tooltip.css"
+    ]
+  }
+]
