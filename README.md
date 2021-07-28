@@ -1,2 +1,2 @@
-# CoreFx
-This Repository contains all Corvinus Collective projects targeted to extending .NET Core
+# ASP.NET Core
+This Repository contains all Corvinus Collective projects targeted to extending ASP.NET Core
