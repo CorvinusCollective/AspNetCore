@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46BCE1E9-9F49-486B-B429-9042B01975AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E6328E8-AC14-486E-AABF-C2C4BE46788C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Corvinus.AspNetCore.Middleware.Exceptions", "src\Corvinus.AspNetCore.Middleware.Exceptions.csproj", "{C994D46C-F991-42E3-AF60-88F594AA6CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit", "tests\Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit\Corvinus.AspNetCore.Middleware.Exceptions.Test.Unit.csproj", "{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C994D46C-F991-42E3-AF60-88F594AA6CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C994D46C-F991-42E3-AF60-88F594AA6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C994D46C-F991-42E3-AF60-88F594AA6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C994D46C-F991-42E3-AF60-88F594AA6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C994D46C-F991-42E3-AF60-88F594AA6CE0} = {46BCE1E9-9F49-486B-B429-9042B01975AF}
+		{59D6B8DB-EFB0-4100-AE7C-84827B9E06D8} = {4E6328E8-AC14-486E-AABF-C2C4BE46788C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0748B628-6037-4E3E-864F-299A85F2A2AB}
+	EndGlobalSection
+EndGlobal

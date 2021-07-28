@@ -3,18 +3,18 @@
   <!-- Base repo layout properties -->
   <PropertyGroup>
     <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
-    <RepoBuildVersion>1.0.0.0</RepoBuildVersion>
+    <RepoBuildVersion>0.0.1.0</RepoBuildVersion>
     <RepositoryUrl>https://github.com/Biomancer81/Corvinus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageOutputPath>$(RepoRoot)packages</PackageOutputPath>
-    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
+    <PackageOutputPath>$(RepoRoot)publish\packages\$(RepoBuildVersion)</PackageOutputPath>
     <Company>Corvinus Collective</Company>
     <Authors>Corvinus Collective</Authors>
     <Copyright>Copyright © $(Company) 2019. All rights reserved.</Copyright>
     <LangVersion>latest</LangVersion>
     <NoWarn>NU5105</NoWarn>
-    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
-    <PackageProjectUrl>https://github.com/Biomancer81/Corvinus</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CorvinusCollective/AspNetCore</PackageProjectUrl>
+    <PackageIcon>Corvinus-Logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(MSBuildProjectExtension)' != '.shproj' ">
@@ -22,6 +22,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(SolutionDir)common\Corvinus-Logo.png" Visible="false">
+      <Pack>True</Pack>
+      <PackagePath>\Corvinus-Logo.png</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup Label="Common">

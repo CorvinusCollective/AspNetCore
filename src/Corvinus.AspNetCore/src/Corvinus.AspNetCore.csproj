@@ -1,24 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
-    <Description>Corvinus ASP.Net Core Fx Library</Description>
-    <RootNamespace>Corvinus.AspNetCore</RootNamespace>
-    <AssemblyName>Corvinus.AspNetCore</AssemblyName>
+    <TargetFramework>net5.0</TargetFramework>
+    <Description>Corvinus AspNetCore Modules Library. Contains Tools and Objects necessary to create a modular AspNetCore service.</Description>
+    <RootNamespace>Corvinus.AspNetCore.Modules</RootNamespace>
+    <AssemblyName>Corvinus.AspNetCore.Modules</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="ServiceProxy\ServiceProxyBaseOld.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.4" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
-  </ItemGroup>
 
 </Project>

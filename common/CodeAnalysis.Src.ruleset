@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Corvinus Collective Source Ruleset" Description="This ruleset should be used in the source projects of all Corvinus Collective projects." ToolsVersion="16.0">
+<RuleSet Name="Microsoft MTE Managed Rules" Description="Included in all Manufacturing Test Engineering managed test services and test suite code." ToolsVersion="16.0">
   <Localization ResourceAssembly="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.dll" ResourceBaseName="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.Localized">
     <Name Resource="MinimumRecommendedRules_Name" />
     <Description Resource="MinimumRecommendedRules_Description" />

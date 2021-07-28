@@ -3,7 +3,7 @@
   <!-- Base repo layout properties -->
   <PropertyGroup>
     <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
-    <RepoBuildVersion>1.0.0.0</RepoBuildVersion>
+    <RepoBuildVersion>0.0.1.0</RepoBuildVersion>
     <RepositoryUrl>https://github.com/Biomancer81/Corvinus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
@@ -12,9 +12,9 @@
     <Copyright>Copyright © $(Company) 2019. All rights reserved.</Copyright>
     <LangVersion>latest</LangVersion>
     <NoWarn>NU5105</NoWarn>
-    <PackageLicense>https://github.com/Biomancer81/Corvinus/blob/master/LICENSE</PackageLicense>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Biomancer81/Corvinus</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/Biomancer81/Corvinus/raw/master/shared/Corvinus-Logo.png</PackageIconUrl>
+    <PackageIcon>Corvinus-Logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(MSBuildProjectExtension)' != '.shproj' ">
