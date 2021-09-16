@@ -1,0 +1,10 @@
+<Project>
+
+  <Import Project="..\..\..\Directory.Build.props" />
+
+  <PropertyGroup>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <Version>$(RepoBuildVersion)</Version>
+  </PropertyGroup>
+
+</Project>

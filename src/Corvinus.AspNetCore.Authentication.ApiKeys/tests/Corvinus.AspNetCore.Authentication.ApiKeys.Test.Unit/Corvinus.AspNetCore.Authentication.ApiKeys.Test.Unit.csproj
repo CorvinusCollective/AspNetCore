@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Corvinus.AspNetCore.Middleware.Exceptions.csproj" />
+    <ProjectReference Include="..\..\src\Corvinus.AspNetCore.Authentication.ApiKeys.csproj" />
   </ItemGroup>
 
 </Project>

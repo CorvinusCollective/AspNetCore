@@ -2,7 +2,7 @@
 // Copyright (c) Corvinus Collective. All rights reserved.
 // </copyright>
 
-namespace Corvinus.AspNetCore.Middleware.Exception
+namespace Corvinus.AspNetCore.Exception
 {
     using Microsoft.AspNetCore.Builder;
     using Microsoft.Extensions.Logging;

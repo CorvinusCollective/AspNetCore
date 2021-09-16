@@ -4,12 +4,12 @@
   <PropertyGroup>
     <RepoRoot>$(MSBuildThisFileDirectory)</RepoRoot>
     <RepoBuildVersion>0.0.1.0</RepoBuildVersion>
-    <RepositoryUrl>https://github.com/Biomancer81/Corvinus/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/CorvinusCollective/AspNetCore</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageOutputPath>$(RepoRoot)publish\packages\$(RepoBuildVersion)</PackageOutputPath>
     <Company>Corvinus Collective</Company>
     <Authors>Corvinus Collective</Authors>
-    <Copyright>Copyright © $(Company) 2019. All rights reserved.</Copyright>
+    <Copyright>Copyright © $(Company) 2021. All rights reserved.</Copyright>
     <LangVersion>latest</LangVersion>
     <NoWarn>NU5105</NoWarn>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

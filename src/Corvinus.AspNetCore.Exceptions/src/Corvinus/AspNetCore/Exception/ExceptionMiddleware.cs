@@ -2,7 +2,7 @@
 // Copyright (c) Corvinus Collective. All rights reserved.
 // </copyright>
 
-namespace Corvinus.AspNetCore.Middleware.Exception
+namespace Corvinus.AspNetCore.Exception
 {
     using System;
     using System.Threading.Tasks;
@@ -51,8 +51,6 @@ namespace Corvinus.AspNetCore.Middleware.Exception
 
                 _logger.LogDebug($"Unhandled Exception: {ex.Message}", ex);
                 var jsonValue = JsonConvert.SerializeObject(ex, Formatting.Indented);
-
-                httpContext.Response.Clear();
                 httpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
                 httpContext.Response.ContentType = @"application/json";
                 httpContext.Response.Headers.Add("exception", "generalException");

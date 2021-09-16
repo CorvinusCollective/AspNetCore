@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Description>Corvinus AspNetCore Modules Library. Contains Tools and Objects necessary to create a modular AspNetCore service.</Description>
-    <RootNamespace>Corvinus.AspNetCore.Modules</RootNamespace>
-    <AssemblyName>Corvinus.AspNetCore.Modules</AssemblyName>
+    <Description>Corvinus AspNetCore ApiKey Authentication Library.</Description>
+    <RootNamespace>Corvinus.AspNetCore.Authentication.ApiKeys</RootNamespace>
+    <AssemblyName>Corvinus.AspNetCore.Authentication.ApiKeys</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <OutputPath>$(RepoRoot)publish\bin\$(Configuration)\$(Platform)\$(TargetFramework)\$(AssemblyName)</OutputPath>
   </PropertyGroup>
